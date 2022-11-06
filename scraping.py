@@ -14,7 +14,7 @@ shopee_link = "https://www.orami.co.id/shopping/promo/belanja-di-bawah-20-ribu"
 driver.set_window_size(1300,800)
 driver.get(shopee_link)
 
-#10x scroll page untuk get all data
+#20x scroll page untuk get all data
 rentang = 500
 for i in range(1,21):
     akhir = rentang * i
